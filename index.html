@@ -48,27 +48,27 @@
         </nav>
       </header>
       <div class="calculator__input">
-        <input type="number" />
+        <input type="number" id="display" disabled />
       </div>
       <section class="button__container">
-        <button class="number__button">7</button>
-        <button class="number__button">8</button>
-        <button class="number__button">9</button>
-        <button class="delete__button">del</button>
-        <button class="number__button">4</button>
-        <button class="number__button">5</button>
-        <button class="number__button">6</button>
-        <button class="number__button">+</button>
-        <button class="number__button">1</button>
-        <button class="number__button">2</button>
-        <button class="number__button">3</button>
-        <button class="number__button">-</button>
-        <button class="number__button">.</button>
-        <button class="number__button">0</button>
-        <button class="number__button">/</button>
-        <button class="number__button">x</button>
-        <button class="reset-span-col-2">reset</button>
-        <button class="equals-span-col-2">=</button>
+        <button class="number__button" onclick="appendToDisplay('7')">7</button>
+        <button class="number__button" onclick="appendToDisplay('8')">8</button>
+        <button class="number__button" onclick="appendToDisplay('9')">9</button>
+        <button class="delete__button" onclick="correctInput()">del</button>
+        <button class="number__button" onclick="appendToDisplay('4')">4</button>
+        <button class="number__button" onclick="appendToDisplay('5')">5</button>
+        <button class="number__button" onclick="appendToDisplay('6')">6</button>
+        <button class="number__button" onclick="appendToDisplay('+')">+</button>
+        <button class="number__button" onclick="appendToDisplay('1')">1</button>
+        <button class="number__button" onclick="appendToDisplay('2')">2</button>
+        <button class="number__button" onclick="appendToDisplay('3')">3</button>
+        <button class="number__button" onclick="appendToDisplay('-')">-</button>
+        <button class="number__button" onclick="appendToDisplay('.')">.</button>
+        <button class="number__button" onclick="appendToDisplay('0')">0</button>
+        <button class="number__button" onclick="appendToDisplay('/')">/</button>
+        <button class="number__button" onclick="appendToDisplay('*')">x</button>
+        <button class="reset-span-col-2" onclick="resetDisplay()">reset</button>
+        <button class="equals-span-col-2" onclick="calculateResult()">=</button>
       </section>
     </div>
 

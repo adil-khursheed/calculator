@@ -109,6 +109,7 @@ body {
   display: grid;
   place-items: center;
   background-color: var(--main-background);
+  padding: 15px;
 }
 
 .container {
@@ -296,7 +297,7 @@ input[type="number"] {
 .delete__button,
 .reset-span-col-2 {
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 22px;
   background-color: var(--key-background);
   color: var(--light-text-clr);
   box-shadow: 0 3px 0 0 var(--key-shadow);
