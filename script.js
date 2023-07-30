@@ -55,7 +55,7 @@ function correctInput() {
 
 function calculateResult() {
   try {
-    result = eval(currentInput);
+    result = new Function("return " + currentInput)();
     currentInput = result.toString();
     updateDisplay();
   } catch (error) {

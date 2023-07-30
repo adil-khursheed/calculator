@@ -168,18 +168,6 @@ nav > p {
   color: var(--header-clr);
 }
 
-/* .theme__btn__thumb {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: var(--key-toggle);
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
-  cursor: pointer;
-} */
-
 .theme__btn__thumb:hover {
   background-color: var(--key-toggle-hover);
 }
@@ -248,17 +236,6 @@ nav > p {
   outline: none;
   padding-top: 8px;
   color: var(--header-clr);
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type="number"] {
-  -moz-appearance: textfield;
-  /* Firefox */
 }
 
 .button__container {
